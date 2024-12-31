@@ -1,0 +1,9 @@
+[project]
+name = "self-supervised-timm"
+version = "0.1.0"
+description = "Adapt TIMM backbone to your custom dataset with self-supervised learning in fastai."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "timm>=1.0.12",
+]
