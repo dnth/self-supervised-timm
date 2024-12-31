@@ -4,6 +4,9 @@
 # image folder
 data/
 
+# Pytorch
+*.pth
+
 # numpy
 *.npy
 
