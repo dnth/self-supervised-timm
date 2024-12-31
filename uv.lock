@@ -792,6 +792,43 @@ wheels = [
 ]
 
 [[package]]
+name = "kornia"
+version = "0.7.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "kornia-rs" },
+    { name = "packaging" },
+    { name = "torch" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6d/df/b4b9400c7993e5ae9d80d764a475488509eba74461247def2f333df178fe/kornia-0.7.4.tar.gz", hash = "sha256:1f8dd6268ca5a2f2ec04b13c48da4dfb90ba2cfae7e31e0cc80d37f6520fa3f1", size = 640243 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d8/cf/a61ef6f7faf98edadf4ce8094873d298f8582a3ec59b65c9174c516926e8/kornia-0.7.4-py2.py3-none-any.whl", hash = "sha256:1b816b4c45878a73531a500a46dbf61e646ec7a749bf8a4dd7a5833a04e28808", size = 899442 },
+]
+
+[[package]]
+name = "kornia-rs"
+version = "0.1.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/f3/c526610210887108c43a0bb1560964176001a25fc72eba7d084394ef5c7a/kornia_rs-0.1.7.tar.gz", hash = "sha256:601aeacd17826d3a796e847d558d9e32c08aa686653eb21b2f93031438af93a1", size = 71171 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/45/0ad5bdf0ded42ff96767d236b004deae81ee53c0a503ee4d4d65963bc864/kornia_rs-0.1.7-cp310-cp310-macosx_10_12_x86_64.whl", hash = "sha256:fe407d6bb9e830e872b7e582b7035aa56092ad8a9b7881f6826706fdb63058bc", size = 1515761 },
+    { url = "https://files.pythonhosted.org/packages/6e/24/4558f651560f04ce4a234911b8bbc3493706c13e76c6f844381af5c8621f/kornia_rs-0.1.7-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:6c67c7c13a380fb6f8a16d03e9e4311550f789196051197217f910af8e21158d", size = 1334356 },
+    { url = "https://files.pythonhosted.org/packages/44/62/88e056a7090cfbe461c9537f134c87de7f1018e7ca2ba6736f2366b2ea32/kornia_rs-0.1.7-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a57a2c8484fecae5a9dbe1e3ad8e5b507b7f643549441d6309f404f45f27aa8b", size = 1447673 },
+    { url = "https://files.pythonhosted.org/packages/39/17/960320728ada483600330bd8f50dc576cef05c06acab96e8373fe4d70ad3/kornia_rs-0.1.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b4641703b3498e84c47ceadf1ecc9c8f05bcb9b9aa9e8f0d48e3dc4aa2e2946a", size = 1613752 },
+    { url = "https://files.pythonhosted.org/packages/95/4a/1bc1d0fae0a8a9e3ba82cfae375760003f6786edac12cab2654f487682f8/kornia_rs-0.1.7-cp310-none-win_amd64.whl", hash = "sha256:c409b9c9612d7025847b4e8d93f43a235cee69a2a990481d072cb90cec94badd", size = 1277568 },
+    { url = "https://files.pythonhosted.org/packages/3a/d1/104e9f575c27679ffedf994e53e6ac39067a0e77b2ea0d1567d4738686ed/kornia_rs-0.1.7-cp311-cp311-macosx_10_12_x86_64.whl", hash = "sha256:fd3506c8e61fb7f55a289fb34998804b0cd35be1e8f2374ee5eb9081b026c472", size = 1513199 },
+    { url = "https://files.pythonhosted.org/packages/a3/c7/ba101a4d9b534e61970b33ccdf895b91af14914c89438cd3e1d439680bcb/kornia_rs-0.1.7-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:b67f07d435d55a4f32051bc65a324b51f43252bf6f7f3405695d1015819c9d30", size = 1330507 },
+    { url = "https://files.pythonhosted.org/packages/ef/e2/31a0b8b925a561a2beb14e4472ed359b9670fda21f2eb44798f0fc435522/kornia_rs-0.1.7-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5c44e9b36f47bccbaeae99f37d312a3aa75da1c0f0fafb1a581a5a0981e94f8a", size = 1448407 },
+    { url = "https://files.pythonhosted.org/packages/66/04/7de2357432d3281d7784db220b42063f28ac2f0821072a9a18ee655f1576/kornia_rs-0.1.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7d7ba0dd9c680c28444eed2cf7611faccf3f85eeb9bfa600df53d62d14deefba", size = 1613979 },
+    { url = "https://files.pythonhosted.org/packages/f3/7b/1f5d35a77a9bfd3566954ceb2e1b38c7673628a2d6a96a8568558454fb27/kornia_rs-0.1.7-cp311-none-win_amd64.whl", hash = "sha256:4f90e5c1f7dfa422889c2af8a570e774604352fc1596f77a00992c1195528c59", size = 1277436 },
+    { url = "https://files.pythonhosted.org/packages/20/48/b8e507a03610ce52c07ebda95f0937d65468ea1db608ad7d1a6ec1190cd4/kornia_rs-0.1.7-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:fffb88d9a37251e0e2ca4fbe09589e66da4b4929e9dee428b73302a9d2d6c820", size = 1509003 },
+    { url = "https://files.pythonhosted.org/packages/2c/dc/bd4a7ca35b6202c24d0393a100e951d4be106774a60c1f7b61d274ff3904/kornia_rs-0.1.7-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:29f4b18989d08bc96af393997890a8578a619696f842811879fa1172b267efd1", size = 1328581 },
+    { url = "https://files.pythonhosted.org/packages/9e/e7/a8db14d77adc3b8e8011675e69f7460a0299561d377e3dde542d3c418b87/kornia_rs-0.1.7-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3fccf8d4bb1b28ff7f9c252006379d1426317afc215f03dfec99b3fe5ce7773d", size = 1447383 },
+    { url = "https://files.pythonhosted.org/packages/df/36/6079761c72771c5b720b12bf86832dc0cff4cb04748f81c24f71124e2507/kornia_rs-0.1.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:80d09d41c0bc31f308d27ae49f0c647f036c9cc205caee3bbc8e5bd0bbb30912", size = 1611490 },
+    { url = "https://files.pythonhosted.org/packages/0e/49/6882d3014271d7905263249b36e27c566a6ed0f3234deca75f04407363f2/kornia_rs-0.1.7-cp312-none-win_amd64.whl", hash = "sha256:3fb9aeebf1676b2f2be442905b2112510aea8333e8949ceaaf348a4094887727", size = 1277821 },
+]
+
+[[package]]
 name = "langcodes"
 version = "3.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1938,6 +1975,22 @@ wheels = [
 ]
 
 [[package]]
+name = "self-supervised"
+version = "1.0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "fastai" },
+    { name = "kornia" },
+    { name = "packaging" },
+    { name = "pip" },
+    { name = "timm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7a/bf/746aa7d21dd7311ba4deb3a13dbc9bba866603d5f915caa3d9da34c70fd5/self_supervised-1.0.4.tar.gz", hash = "sha256:a91c77db247ccc117c8c8340910154bb70fd55301989b9bf4cf40c7d3b87afda", size = 32791 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a0/41/9c713411f0020054c480cd414a5bc8f0a15d9fc322ebf464f0bbc37b9107/self_supervised-1.0.4-py3-none-any.whl", hash = "sha256:30e143649cbd3a57348a42c37b8a2e38b8bafef8052a1aa68cc478572a68597c", size = 41635 },
+]
+
+[[package]]
 name = "self-supervised-timm"
 version = "0.1.0"
 source = { virtual = "." }
@@ -1945,6 +1998,7 @@ dependencies = [
     { name = "datasets" },
     { name = "faiss-cpu" },
     { name = "fastai" },
+    { name = "self-supervised" },
     { name = "timm" },
 ]
 
@@ -1953,6 +2007,7 @@ requires-dist = [
     { name = "datasets", specifier = ">=3.2.0" },
     { name = "faiss-cpu", specifier = ">=1.9.0.post1" },
     { name = "fastai", specifier = ">=2.7.18" },
+    { name = "self-supervised", specifier = ">=1.0.4" },
     { name = "timm", specifier = ">=1.0.12" },
 ]
 
